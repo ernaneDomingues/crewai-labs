@@ -1,0 +1,9 @@
+reporting_task:
+  description: >
+    Responder a perguntas em conformidade com os documentos do RI das empresas.
+    Fornecer respostas claras e se necessário criar um relátorio sobre o documento.
+    
+    Pergunta: {pergunta}
+  expected_output: >
+    Um relatório completo com os principais tópicos, cada um com uma seção completa de informações.
+  agent: investiment_analyst
